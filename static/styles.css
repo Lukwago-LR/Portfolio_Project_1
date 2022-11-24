@@ -1,0 +1,129 @@
+.top-container{
+    background-color: #CDF0EA;
+    padding-top:100px;
+}
+
+body{
+    margin:0px;
+    text-align:center;
+    font-family: "Merriweahter",serif;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+h1{
+    margin-bottom:0px;
+    margin-top:50px;
+    font-family: "Sacramento",sans-serif;
+    font-size:4rem;
+    color:#66BFBF;
+    line-height:2;
+}
+
+.skill-row{
+    width:50%;
+    margin:50px auto 50px auto;
+    text-align:left;
+    line-height:2;
+}
+
+h2{
+    margin-top:0px;
+    font-family: "Montserrat",sans-serif;
+    font-size:2.5rem;
+    color:#66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+}
+
+
+.bottomClass{
+    position:absolute;
+}
+
+.circle1{
+     border-radius: 100%;
+     width:25%;
+     float:left;
+     margin-right:30px;
+}
+
+hr{
+    border:dotted;
+    border-radius: 100px;
+    width:5%;
+    color:#EAF6F6
+}
+
+
+.circle2{
+     border-radius: 100%;
+     width:25%;
+     float:right;
+     margin-left:30px;
+}
+
+.profPic{
+     border-radius: 100%;
+     width:10%;
+}
+
+.topClass{
+    position:absolute;
+    top:50px;
+    right:420px;
+}
+
+.middle-container{
+
+}
+.profile{
+     margin-bottom:30px;
+}
+
+.bottom-container{
+      background-color: #CDF0EA;
+      margin-top:50px;
+      padding:20px;
+}
+
+.co{
+    color:white;
+}
+
+.btn {
+  background:  #11cdd4;
+  background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.footer-link{
+    margin:10px;
+    color: #11999e;
+}

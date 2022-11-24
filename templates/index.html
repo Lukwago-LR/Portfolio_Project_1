@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='styles.css')}}">
+{% endblock %}
+
+{% block title %}Lukwago{% endblock %}
+
+{% block content %}
+
+
+<img class="topClass" src="static/cloud.png" alt="cloud-img">
+<h1>I am Lukwago</h1>
+<h2>a <span class="pro">pro</span>grammar</h2>
+<img class="bottomClass" src="static/cloud.png" alt="cloud-img">
+<img src="static/mountain.png" alt="cloud-img">
+
+
+
+<div class="middle-container">
+    <div class="profile">
+        <img class="profPic" src="static/bob.jpg" alt="">
+        <h2>Hello.</h2>
+        <p> I am Lukwago Robert Kaggwa and this is my portfolio website</p>
+    </div>
+    <hr>
+    <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+            <img class="circle1" src="static/computer.png" alt="">
+            <h3>I am a computer scientist, data scientist, software developer, electronic and electrical engineer</h3>
+            <p>I do like working with data, I love working to work with java, python and other languages
+                i also love electrical circuits, power systems and to design and built these systems what I do everyday </p>
+        </div>
+        <div class="skill-row">
+            <img class="circle2" src="static/chillies.png" alt="">
+            <h3>I am hardworking and are self-driven person too</h3>
+            <p>I believe we are all met to succeed and success is relative, for me success means to reach where I need to
+                be at the end of my life, and that is to be right with God</p>
+        </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you are interested in knowing more of me, please get in touch</h3>
+        <p>All my contact details are provided below, and it will be amazing for me to get to meet and know you</p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+</div>
+{% endblock %}
