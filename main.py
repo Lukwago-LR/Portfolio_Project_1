@@ -41,7 +41,7 @@ class Bob(UserMixin, db.Model):
 
 
 class LoginForm(FlaskForm):
-    user_email = EmailField(label='Email', validators=[DataRequired(), Email()])
+    user_email = EmailField(label='Email', validators=[DataRequired()])
     user_pass = PasswordField(label='Password', validators=[DataRequired(), length(min=3)])
     submit = SubmitField(label='Log In')
 
