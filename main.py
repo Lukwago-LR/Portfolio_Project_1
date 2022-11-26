@@ -31,13 +31,13 @@ class Bob(UserMixin, db.Model):
         return f'Bob {self.email}'
 
 
-with app.app_context():
-    db.create_all()
-
-with app.app_context():
-    new_user = Bob(email="2@gmail.com", password="098765")
-    db.session.add(new_user)
-    db.session.commit()
+# with app.app_context():
+#     db.create_all()
+#
+# with app.app_context():
+#     new_user = Bob(email="2@gmail.com", password="098765")
+#     db.session.add(new_user)
+#     db.session.commit()
 
 
 class LoginForm(FlaskForm):
