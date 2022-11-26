@@ -15,7 +15,7 @@ Bootstrap(app)
 
 app.config['TESTING'] = False
 app.config['SECRET_KEY'] = os.environ.get("APP_SECRET_KEY")
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL")  # "sqlite:///blog.db"
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", "sqlite:///bob.db")  # "sqlite:///blog.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 login_manager = LoginManager()
